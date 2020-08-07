@@ -112,9 +112,5 @@ display: grid;
 }
 
 .icons{
-  margin-top: 60px;
-}
-
-ul{
- display: inline-flex;
+  margin: 60px 180px;
 }
