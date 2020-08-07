@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans";
+  text-align: left;
+  background-size: 100% ;
+  color: white;
+  background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") no-repeat ;
+}
+
+
+h1{
+  font-family: "Poppins";
+  font-size: 40px;
+}
+
+p{
+  line-height: 30px;
+  font-size: 16.5px;
+}
+
+button{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 18px 60px;
+}
+
+.logo{
+  float: left;
+  width: 200px;
+  margin: 40px 80px;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: absolute;
+  align-items: center;
+}
+
+.illus{
+  margin-top: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.row{
+  display: flex;
+  padding: 80px;
+}
+
+.column {
+  flex: 100%;
+}
+
+.diff{
+  margin-top: 120px;
+  margin-left: 60px;
+}
+
+.icons{
+  margin-top: 120px;
+}
+
+.fab{
+  float: right;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px;
+  margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+
+body{
+  height: 100%;
+  text-align: center;
+  background: hsl(257, 40%, 49%) url("images/bg-mobile.svg") no-repeat center/cover;
+}
+
+p{
+  margin-top: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  letter-spacing: 2px;
+}
+
+button{
+  font-size: 12px;
+  padding: 15px 60px;
+  width: 250px;
+}
+
+.row{
+display: grid;
+}
+
+.diff{
+  margin: auto;
+ padding: 80px;
+}
+
+.icons{
+  margin-top: 60px;
+}
+
+ul{
+ display: inline-flex;
+}
